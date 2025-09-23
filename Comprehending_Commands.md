@@ -320,7 +320,7 @@ The challenge taught me to use ls, ls -a, cd commands together and have a lot of
 
 None
 
-## Making Directories - Challenge 11   
+## Making Directories - Challenge 12   
 ### This challenge requires us to make a directory and create a file in it to get the flag.
 
 **Flag:** `pwn.college{o5NrDDN3t9JhXFgdSI9yv8r5mTD.QXxMDO0wyN4gjNzEzW}` 
@@ -348,7 +348,7 @@ The challenge taught me on how making directories using the mkdir command works.
 
 None
 
-## Finding Files - Challenge 12   
+## Finding Files - Challenge 13   
 ### This challenge requires us to find a flag file.
 
 **Flag:** `pwn.college{E6zGLs0-TVdwYPJwyY8dLTZZGyV.QXyMDO0wyN4gjNzEzW}` 
@@ -432,7 +432,7 @@ The challenge taught me how to use the find command (find / -name filename). One
 
 None
 
-## Linking Files - Challenge 13   
+## Linking Files - Challenge 14   
 ### This challenge requires us symbolic link files and trick a file into giving us the flag.
 
 **Flag:** `pwn.college{Ahi3LmbDtTaoXnyq4WQGE5uTfXB.QX5ETN1wyN4gjNzEzW}` 
