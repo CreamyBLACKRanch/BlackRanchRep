@@ -166,22 +166,22 @@ How to use pipes (`|`) to process live output with another program like `grep`.
 
 None
 
-## Grepping Errors - 8(Redo)
+## Grepping Errors - 8(Redo, Not able to obtain flag as website is down)
 ### This challenge involves piping errors directly into `grep`.
 
-**Flag:** `pwn.college{AK9XwtUxlotqKhQyfqT27qg_MLD.QX5EDO0wyN4gjNzEzW}`
+**Flag:** ``
 
 The process of obtaining the flag involved:
 
 ```
-hacker@piping~grepping-live-output:~$ /challenge/run | grep pwn.college
+hacker@piping~grepping-live-output:~$
 ...
-pwn.college{AK9XwtUxlotqKhQyfqT27qg_MLD.QX5EDO0wyN4gjNzEzW}
+
 ``` 
  
 ## What I Learned
 
-How to use pipes (`|`) to process live output with another program like `grep`.
+
 
 ## References
 
@@ -210,18 +210,18 @@ None
 ## Duplicating Piped Date with tee - 10(Redo)
 ### This challenge involves piping the flag using the `tee` command.
 
-**Flag:** `pwn.college{Ql4rmIe1BE3OA-R6mwNh_Tjp6d2.0FOxEzNxwyN4gjNzEzW}`
+**Flag:** ``
 
 The process of obtaining the flag involved:
 
 ```
-hacker@piping~filtering-with-grep-v:~$ /challenge/run | grep -v DECOY
-pwn.college{Ql4rmIe1BE3OA-R6mwNh_Tjp6d2.0FOxEzNxwyN4gjNzEzW}
+hacker@piping~filtering-with-grep-v:~$ /challenge/run | tee code | /challenge/code
+
 ```
  
 ## What I Learned
 
-How to use the `grep` with the filter `-v` command.
+How to use the `tee` command to duplicate a component.
 
 ## References
 
@@ -295,20 +295,17 @@ None
 ## Named Pipes - 14(Redo)
 ### This challenge involves using the stderr and stdout commands WITHOUT mixing them to obtain the proper flag.
 
-**Flag:** `pwn.college{QPgncQILjiDf3sNx3zQ6cTX6bia.QXxQDM2wyN4gjNzEzW}`
+**Flag:** ``
 
 The process of obtaining the flag involved:
 
 ```
-hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack > >( /challenge/planet ) 2> >( /challenge/the )
-Congratulations, you have learned a redirection technique that even experts
-struggle with! Here is your flag:
-pwn.college{QPgncQILjiDf3sNx3zQ6cTX6bia.QXxQDM2wyN4gjNzEzW}
+
 ```
  
 ## What I Learned
 
-How to use the piping commands of stdin and stdout properly without mixing them. I initially kept making the mistake of ignoring the second `>` after /hack which took me long to get over.
+.
 
 ## References
 
